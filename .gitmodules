@@ -1,0 +1,4 @@
+[submodule "content/Engineering"]
+	path = content/Engineering
+	url = https://github.com/LuckyCrasher/notes.git
+	branch = Engineering
