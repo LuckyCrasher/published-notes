@@ -1,0 +1,20 @@
+name: Clone notes from personal note repository
+on:
+ push:
+  branches:
+   - v4
+  jobs:
+   - clone:
+     steps:
+       - uses: whyakari/github-repo-action@v3.1
+         with:
+           # Repository Owner
+           owner: LuckyCrasher
+           #  Repository name
+           repository: notes
+           # PAT with repository scope (https://github.com/settings/tokens)
+           access-token: 
+           # Depth of the clone (default: full history)
+           depth: # optional, default is 
+           # Branch name (default: main)
+           branch: Engineering
