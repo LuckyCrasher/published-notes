@@ -1,4 +1,4 @@
 [submodule "content/Engineering"]
 	path = content/Engineering
-	url = https://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@github.com/LuckyCrasher/notes.git
+	url = https://LuckyCrasher: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@github.com/LuckyCrasher/notes.git
 	branch = Engineering
